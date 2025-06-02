@@ -951,7 +951,7 @@ export class Map extends maplibregl.Map {
     const language = toLanguageInfo(lang, Language);
 
     if (!language) {
-      console.warn(`The language "${language}" is not supported.`);
+      console.warn(`The language "${lang}" is not supported.`);
       return;
     }
 
